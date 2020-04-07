@@ -12,7 +12,7 @@
     <meta name="keywords" content="듣기, 2019년 최고의 음악 100선, Apple Music">
 
     <title>Apple Music App</title> 
-    
+
     <!-- meta -->
     <meta name="format-detection" content="telephone=no">
     <meta property="og:title" content="뮤직 모바일 메인">
@@ -29,7 +29,7 @@
     <link rel="apple-touch-icon-precomposed" href="https://webstoryboy.github.io/apple/assets/icon/icon.jpg">
     <link rel="apple-touch-icon-precomposed" sizes="96x96" href="https://webstoryboy.github.io/apple/assets/icon/icon_96.jpg">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://webstoryboy.github.io/apple/assets/icon/icon_144.jpg">
-    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://webstoryboy.github.io/apple/assets/icon/icon_192.jpg">
+    <link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://webstoryboy.github.io/apple/assets/icon/icon_192.jpg"> 
 
     <!-- style -->
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -40,6 +40,46 @@
 
 </head>
 <body>
-    
+
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <time class="header-date">2020년 4월 7일</time>
+                <h1 class="header-title">음악 듣기</h1>
+                <div class="header-id">W</div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <main>
+    <section class="music">
+        <article class="bestMusic">
+            <div class="container">
+                <div class="row">
+                    <div class="best">
+                        <div class="best-title">
+                            <span class="bt-stitle">BEATS 1 ON AIR</span>
+                            <h2 class="bt-title">Travis Mills</h2>
+                            <p class="bt-desc">
+                                L.A's pop culture autority
+                            </p>
+                        </div>
+                        <picture>
+                            <source src="assets/img/bestM01@3x.jpg" media="(min-width: 800px)">
+                            <source src="assets/img/bestM01@2x.jpg" media="(min-width:600px)">
+                            <img src="assets/img/bestM01.jpg" srcset="assets/img/bestM01.jpg 1x, assets/img/bestM01@2x.jpg 2x, assets/img/bestM01@3x.jpg 3x">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- bestMusic -->
+        <article class="recentMusic"></article>
+        <!-- recentMusic -->
+        <article class="nextMusic"></article>
+        <!-- nextMusic -->
+    </section>
+    <!-- music -->
+</main>
 </body>
 </html>  
